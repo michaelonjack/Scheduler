@@ -10,8 +10,8 @@ import java.sql.SQLException;
 public class HolidayTable {
     
     static final String DATABASE_URL = "jdbc:derby://localhost:1527/Magician";
-    static final String USERNAME = "mzo5081";
-    static final String PASSWORD = "goslaters2";
+    static final String USERNAME = "USERNAME";
+    static final String PASSWORD = "PASSWORD";
     private Connection connection = null;
     private Statement statement = null;
     private ResultSet resultSet = null;
